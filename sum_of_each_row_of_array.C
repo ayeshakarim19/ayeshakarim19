@@ -1,3 +1,7 @@
+/******************************************
+
+*******************************************/
+
 #include<stdio.h>
 void main()
 {
@@ -27,7 +31,7 @@ for(j=0;j<4;j++)
 {
 sum=sum+arr[i][j];
 }
-printf("\nSum of first row is %d",sum);
+printf("\nSum of each row is %d",sum);
 sum=0;
 }
 }
